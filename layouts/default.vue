@@ -1,6 +1,5 @@
 <template>
   <div>
-    Welcome to RealDiv
     <nuxt />
   </div>
 </template>
