@@ -8,6 +8,7 @@ const _7974e539 = () => interopDefault(import('../pages/admin/index.vue' /* webp
 const _460388bd = () => interopDefault(import('../pages/posts/index.vue' /* webpackChunkName: "pages/posts/index" */))
 const _248f0d58 = () => interopDefault(import('../pages/admin/auth/index.vue' /* webpackChunkName: "pages/admin/auth/index" */))
 const _32f7bd99 = () => interopDefault(import('../pages/admin/new-post/index.vue' /* webpackChunkName: "pages/admin/new-post/index" */))
+const _153f1d38 = () => interopDefault(import('../pages/admin/_postId/index.vue' /* webpackChunkName: "pages/admin/_postId/index" */))
 const _eb8005b0 = () => interopDefault(import('../pages/posts/_id/index.vue' /* webpackChunkName: "pages/posts/_id/index" */))
 const _36bbcb39 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -47,6 +48,10 @@ export const routerOptions = {
     path: "/admin/new-post",
     component: _32f7bd99,
     name: "admin-new-post"
+  }, {
+    path: "/admin/:postId",
+    component: _153f1d38,
+    name: "admin-postId"
   }, {
     path: "/posts/:id",
     component: _eb8005b0,
