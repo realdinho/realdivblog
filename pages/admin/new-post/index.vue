@@ -1,17 +1,17 @@
 <template>
   <div class="admin-page">
-    <section class="new-post-form">
+    <section class="new-post">
       <AdminPostForm />
     </section>
   </div>
 </template>
 
 <script>
-import AdminPostForm from '@/components/Admin/AdminPostForm'
+import AdminPostForm from '@/components/Admin/AdminPostForm' 
 
 export default {
   components: {
-    AdminPostform
+    AdminPostForm
   }
 }
 </script>
@@ -22,8 +22,6 @@ export default {
 }
 
 .new-post {
-  text-align: center;
-  border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
 }
 
