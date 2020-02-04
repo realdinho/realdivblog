@@ -6,11 +6,7 @@
       <AppControlInput control-type="textarea" v-model="editedPost.content">Content:</AppControlInput>
       
       <AppButton type="submit">Save</AppButton>
-      <AppButton
-        type="button"
-        style="margin-left: 10px"
-        btn-style="cancel"
-        @click="onCancel">Cancel</AppButton>
+      <AppButton type="button" class="btn-cancel" btn-style="cancel" @click="onCancel">Cancel</AppButton>
   </form>
 </template>
 
@@ -50,3 +46,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .btn-cancel {
+    margin-left: 10px;
+  }
+</style>
